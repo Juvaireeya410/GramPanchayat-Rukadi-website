@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gram Panchayat Information - Rukadi</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:#f5f5f5;
+}
+
+/* Header */
+.navbar{
+    background:#f4b183;
+    padding:15px 40px;
+}
+
+.navbar-brand{
+    font-size:28px;
+    font-weight:bold;
+    color:black !important;
+}
+
+.nav-link{
+    color:black !important;
+    font-weight:bold;
+    margin-left:15px;
+}
+
+.nav-link:hover{
+    color:#b22222 !important;
+}
+body{
+    background:#f5f7fb;
+}
+
+/* Heading */
+
+.main-heading{
+    text-align:center;
+    color:#1f4db8;
+    margin-top:30px;
+    font-size:38px;
+}
+
+.sub-heading{
+    text-align:center;
+    color:#555;
+    margin-bottom:30px;
+}
+
+/* Information Section */
+
+.info-section{
+    width:90%;
+    margin:auto;
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.container{
+    flex:1;
+    min-width:350px;
+    background:#fff;
+    border:1px solid #ddd;
+    border-radius:10px;
+    padding:20px;
+}
+
+.container h2{
+    color:#1f4db8;
+    margin-bottom:15px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+td{
+    border:1px solid #ddd;
+    padding:12px;
+}
+
+td:first-child{
+    background:#f4f4f4;
+    font-weight:bold;
+}
+
+/* Vision Section */
+
+.vision-section{
+    width:90%;
+    margin:50px auto;
+}
+
+.vision-title{
+    text-align:center;
+    color:#1f4db8;
+    margin-bottom:25px;
+}
+
+.vision-box{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.vision-card{
+    flex:1;
+    min-width:350px;
+    background:#fff;
+    border:1px solid #ddd;
+    border-radius:10px;
+    padding:25px;
+}
+
+.vision-card h2{
+    color:#1f4db8;
+    margin-bottom:15px;
+}
+
+.vision-card p{
+    line-height:1.8;
+    color:#444;
+}
+
+.vision-card ul{
+    padding-left:20px;
+}
+
+.vision-card ul li{
+    margin-bottom:12px;
+}
+
+/* Incumbent Section */
+
+.incumbent{
+    width:90%;
+    margin:50px auto;
+}
+
+.incumbent h2{
+    text-align:center;
+    color:#1f4db8;
+    margin-bottom:25px;
+}
+
+.card-container{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.card{
+    width:400px;
+    background:#fff;
+    border:1px solid #ddd;
+    border-radius:10px;
+    padding:25px;
+    text-align:center;
+    box-shadow:0px 3px 10px rgba(0,0,0,0.1);
+}
+
+.card h3{
+    color:#222;
+    margin-bottom:10px;
+}
+
+.designation{
+    color:#1f4db8;
+    font-weight:bold;
+    font-size:18px;
+    margin-bottom:15px;
+}
+
+.card p{
+    margin:8px 0;
+    color:#444;
+}
+
+/* Footer */
+
+.footer{
+    background:#1c2c4c;
+    color:white;
+    margin-top:50px;
+}
+
+.footer-container{
+    width:90%;
+    margin:auto;
+    padding:40px 0;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.footer-column{
+    flex:1;
+    min-width:250px;
+}
+
+.footer-column h3{
+    margin-bottom:15px;
+}
+
+.footer-column ul{
+    list-style:none;
+}
+
+.footer-column ul li{
+    margin-bottom:10px;
+}
+
+.footer-column ul li a{
+    color:white;
+    text-decoration:none;
+}
+
+.footer-column ul li a:hover{
+    color:#ffd700;
+}
+
+.contact p{
+    margin-bottom:10px;
+}
+
+.footer-bottom{
+    background:#162038;
+    text-align:center;
+    padding:15px;
+}
+
+</style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+
+<a class="navbar-brand" href="#">
+ Gram Panchayat Rukadi
+</a>
+
+<button class="navbar-toggler" type="button"
+data-toggle="collapse"
+data-target="#navbarNav">
+
+<span class="navbar-toggler-icon"></span>
+
+</button>
+
+<div class="collapse navbar-collapse" id="navbarNav">
+
+<ul class="navbar-nav ml-auto">
+
+<li class="nav-item">
+<a class="nav-link" href="home.html">Home</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="service.html">Services</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="about.html">About Us</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="contact.html">Contact</a>
+</li>
+
+</ul>
+
+</div>
+
+</nav>
+<h1 class="main-heading">Gram Panchayat Information</h1>
+<p class="sub-heading">Primary and Demographic Information</p>
+
+<!-- Information Section -->
+
+<section class="info-section">
+
+<div class="container">
+<h2>Primary Information</h2>
+
+<table>
+<tr>
+<td>Name of Gram Panchayat</td>
+<td>Rukadi</td>
+</tr>
+
+<tr>
+<td>Names of the Inner Village</td>
+<td>Rukadi</td>
+</tr>
+
+<tr>
+<td>Taluka</td>
+<td>Hatkanangle</td>
+</tr>
+
+<tr>
+<td>District</td>
+<td>Kolhapur</td>
+</tr>
+
+<tr>
+<td>Year of Formation of Gram Panchayat</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>Total Number of Wards</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>Date of First Meeting</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>Total Area (sq.km)</td>
+<td>883.00</td>
+</tr>
+</table>
+
+</div>
+
+<div class="container">
+
+<h2>Population Information</h2>
+
+<table>
+
+<tr>
+<td>Total Population</td>
+<td>6197</td>
+</tr>
+
+<tr>
+<td>Total Families</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>Men</td>
+<td>3144</td>
+</tr>
+
+<tr>
+<td>Female</td>
+<td>3053</td>
+</tr>
+
+<tr>
+<td>Literacy Rate (%)</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>Zip Code</td>
+<td>416118</td>
+</tr>
+
+<tr>
+<td>LGD Code</td>
+<td>179044</td>
+</tr>
+
+</table>
+
+</div>
+
+</section>
+
+<!-- Vision Section -->
+
+<section class="vision-section">
+
+<h1 class="vision-title">Vision, Mission and Values</h1>
+
+<div class="vision-box">
+
+<div class="vision-card">
+
+<h2>Vision and Mission</h2>
+
+<p>
+The approach of the Gram Panchayat is citizen-oriented,
+transparent and based on sustainable development.
+The main goal is to provide basic amenities and improve
+the quality of life of villagers.
+</p>
+
+<br>
+
+<p>
+Sanitation, Water Supply, Health, Education,
+Digital Services and Infrastructure Development
+are the key focus areas of Gram Panchayat Rukadi.
+Effective implementation of government schemes
+and continuous development of facilities are our priorities.
+</p>
+
+</div>
+
+<div class="vision-card">
+
+<h2>Default Values</h2>
+
+<ul>
+<li>Transparent and accountable administration</li>
+<li>Citizen participation and trust</li>
+<li>Balanced and inclusive development</li>
+<li>Cleanliness, health and environment conservation</li>
+<li>Strict adherence to government policies</li>
+<li>Adoption of digital services</li>
+</ul>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Incumbent Section -->
+
+<section class="incumbent">
+
+<h2>Incumbent</h2>
+
+<div class="card-container">
+
+<div class="card">
+<h3>Rajashri Rukadikar</h3>
+<p class="designation">Sarpanch</p>
+<p>9921114234</p>
+<p>rajatri@gmail.com</p>
+</div>
+
+<div class="card">
+<h3>Pakija Mullani</h3>
+<p class="designation">Deputy Sarpanch</p>
+<p>9823786609</p>
+<p>pakija@gmail.com</p>
+</div>
+
+</div>
+
+</section>
+
+<footer class="footer">
+
+<div class="footer-container">
+
+<div class="footer-column">
+
+<h3>Important Websites</h3>
+
+<ul>
+<li><a href="https://maharashtra.gov.in/">Government of Maharashtra</a></li>
+<li><a href="https://majhigrampanchayat.com/">My Gram Panchayat</a></li>
+<li><a href="https://rdd.maharashtra.gov.in/">Rural Development Department</a></li>
+<li><a href="https://egramswaraj.gov.in/">e-GramSwaraj</a></li>
+</ul>
+
+</div>
+
+<div class="footer-column">
+
+<h3>Quick Links</h3>
+
+<ul>
+<li><a href="home.html">Homepage</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="service.html">Services</a></li>
+<li><a href="contact.html">Contacts</a></li>
+</ul>
+
+</div>
+
+<div class="footer-column contact">
+
+<h3>Contact Us</h3>
+
+<p>
+Gram Panchayat Office,<br>
+Rukadi, Tal. Hatkanangle,<br>
+Dist. Kolhapur - 416118
+</p>
+
+<p><strong>Contact No:</strong> 8605906007</p>
+
+<p><strong>Email:</strong> rukadi@gmail.com</p>
+
+</div>
+
+</div>
+
+<div class="footer-bottom">
+© Rukadi Gram Panchayat | All Rights Reserved
+</div>
+
+</footer>
+
+</body>
+</html>
