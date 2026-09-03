@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Gram Panchayat Rukadi - Contact</title>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:#f5f5f5;
+}
+
+/* Navbar */
+.navbar{
+    background:#f4b183;
+    padding:15px 40px;
+}
+
+.navbar-brand{
+    font-size:28px;
+    font-weight:bold;
+    color:black !important;
+}
+
+.nav-link{
+    color:black !important;
+    font-weight:bold;
+    margin-left:15px;
+}
+
+.nav-link:hover{
+    color:#b22222 !important;
+}
+
+/* Contact Section */
+
+.contact-section{
+    width:90%;
+    margin:50px auto;
+    display:flex;
+    justify-content:space-between;
+    gap:40px;
+    flex-wrap:wrap;
+}
+
+.contact-info{
+    flex:1;
+    min-width:300px;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.contact-info h2{
+    margin-bottom:20px;
+    color:#333;
+}
+
+.contact-info p{
+    color:#555;
+    line-height:1.8;
+    margin-bottom:15px;
+}
+
+.form-container{
+    flex:1;
+    min-width:350px;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.form-container h2{
+    margin-bottom:20px;
+    color:#333;
+}
+
+.form-container label{
+    display:block;
+    margin-top:15px;
+    margin-bottom:5px;
+    font-weight:bold;
+    color:#333;
+}
+
+.form-container input,
+.form-container textarea{
+    width:100%;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:5px;
+    outline:none;
+}
+
+.form-container input:focus,
+.form-container textarea:focus{
+    border-color:#28a745;
+}
+
+.form-container button{
+    margin-top:20px;
+    background:#28a745;
+    color:white;
+    border:none;
+    padding:12px 30px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.form-container button:hover{
+    background:#218838;
+}
+
+/* Map */
+iframe{
+    width:100%;
+    margin-top:30px;
+}
+
+/* Footer */
+
+.footer{
+    background:#111;
+    color:white;
+    margin-top:40px;
+}
+
+.footer-container{
+    width:90%;
+    margin:auto;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    padding:50px 0;
+}
+
+.footer-column{
+    min-width:250px;
+    margin-bottom:20px;
+}
+
+.footer-column h3{
+    margin-bottom:20px;
+    color:#ffcc00;
+}
+
+.footer-column ul{
+    list-style:none;
+}
+
+.footer-column ul li{
+    margin-bottom:12px;
+}
+
+.footer-column ul li a{
+    color:#ddd;
+    text-decoration:none;
+}
+
+.footer-column ul li a:hover{
+    color:#ffcc00;
+}
+
+.contact p{
+    color:#ddd;
+    line-height:1.8;
+}
+
+.footer-bottom{
+    text-align:center;
+    padding:15px;
+    border-top:1px solid rgba(255,255,255,0.2);
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+
+<nav class="navbar navbar-expand-lg navbar-light">
+
+    <a class="navbar-brand" href="#">
+        Gram Panchayat Rukadi
+    </a>
+
+    <button class="navbar-toggler" type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav">
+
+        <span class="navbar-toggler-icon"></span>
+
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+
+        <ul class="navbar-nav ml-auto">
+
+            <li class="nav-item">
+                <a class="nav-link" href="home.html">Home</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="service.html">Services</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+
+        </ul>
+
+    </div>
+
+</nav>
+
+<section class="contact-section">
+
+    <div class="contact-info">
+
+        <h2>Contact Information</h2>
+
+        <p>
+            Gram Panchayat Office,<br>
+            Rukadi, Tal. Hatkanangle,<br>
+            Dist. Kolhapur 416118
+        </p>
+
+        <p>
+            <strong>Contact No:</strong><br>
+            8605906007
+        </p>
+
+        <p>
+            <strong>E-mail:</strong><br>
+            rukadi@gmail.com
+        </p>
+
+    </div>
+
+    <div class="form-container">
+
+        <h2>Notice / Complaint Form</h2>
+
+        <form>
+
+            <label>Name</label>
+            <input type="text" placeholder="Enter Name" required>
+
+            <label>Mobile Number</label>
+            <input type="tel" placeholder="Enter Mobile Number" required>
+
+            <label>Email</label>
+            <input type="email" placeholder="Enter Email" required>
+
+            <label>Complaint Details</label>
+            <textarea rows="6" placeholder="Write your complaint here"></textarea>
+
+            <button type="submit">Submit</button>
+
+        </form>
+
+    </div>
+
+</section>
+
+<!-- Google Map (Unchanged) -->
+
+<iframe
+src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30570.596802754!2d74.33620670195735!3d16.710647980179274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc1025742e9048b%3A0x399efbe5203052e!2sRukadi%2C%20Maharashtra%20416118!5e0!3m2!1sen!2sin!4v1781240854501!5m2!1sen!2sin"
+width="600"
+height="450"
+style="border:0;"
+allowfullscreen=""
+loading="lazy"
+referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+
+<!-- Footer (Unchanged) -->
+
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <div class="footer-column">
+
+            <h3>Important Websites</h3>
+
+            <ul>
+                <li><a href="https://maharashtra.gov.in/">Government of Maharashtra</a></li>
+                <li><a href="https://majhigrampanchayat.com/">My Gram Panchayat</a></li>
+                <li><a href="https://rdd.maharashtra.gov.in/en/">Rural Development Department</a></li>
+                <li><a href="https://egramswaraj.gov.in/">e-GramSwaraj</a></li>
+            </ul>
+
+        </div>
+
+        <div class="footer-column">
+
+            <h3>Links</h3>
+
+            <ul>
+                <li><a href="home.html">Homepage</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="contact.html">Contacts</a></li>
+            </ul>
+
+        </div>
+
+        <div class="footer-column contact">
+
+            <h3>Contacts</h3>
+
+            <p>
+                Gram Panchayat Office,<br>
+                Rukadi, Tal. Hatkanangle,<br>
+                Dist. Kolhapur 416118
+            </p>
+
+            <p><strong>Contact No:</strong> 8605906007</p>
+            <p><strong>E-mail:</strong> rukadi@gmail.com</p>
+
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© Rukadi | All Rights Reserved</p>
+    </div>
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
